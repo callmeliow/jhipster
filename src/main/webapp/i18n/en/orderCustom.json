@@ -1,0 +1,26 @@
+{
+  "smartServeApp": {
+    "orderCustom": {
+      "home": {
+        "title": "Order Customs",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Order Custom",
+        "createOrEditLabel": "Create or edit a Order Custom",
+        "notFound": "No Order Customs found"
+      },
+      "created": "A new Order Custom is created with identifier {{ param }}",
+      "updated": "A Order Custom is updated with identifier {{ param }}",
+      "deleted": "A Order Custom is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Order Custom {{ id }}?"
+      },
+      "detail": {
+        "title": "Order Custom"
+      },
+      "id": "ID",
+      "customizationName": "Customization Name",
+      "price": "Price",
+      "orderFood": "Order Food"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "annotations": {
+    "changelogDate": "20240206155943"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "entityTableName": "order_custom",
+  "fields": [
+    {
+      "fieldName": "customizationName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "price",
+      "fieldType": "BigDecimal"
+    }
+  ],
+  "name": "OrderCustom",
+  "relationships": [
+    {
+      "otherEntityName": "orderFood",
+      "relationshipName": "orderFood",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

@@ -1,0 +1,10 @@
+{
+  "smartServeApp": {
+    "OrderStatus": {
+      "null": "",
+      "PENDING": "PENDING",
+      "COMPLETED": "COMPLETED",
+      "DECLINED": "DECLINED"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "smartServeApp": {
+    "custom": {
+      "home": {
+        "title": "Customs",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Custom",
+        "createOrEditLabel": "Create or edit a Custom",
+        "notFound": "No Customs found"
+      },
+      "created": "A new Custom is created with identifier {{ param }}",
+      "updated": "A Custom is updated with identifier {{ param }}",
+      "deleted": "A Custom is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Custom {{ id }}?"
+      },
+      "detail": {
+        "title": "Custom"
+      },
+      "id": "ID",
+      "ingredientName": "Ingredient Name",
+      "additionalCost": "Additional Cost",
+      "imageUrl": "Image Url",
+      "createdDate": "Created Date",
+      "updatedDate": "Updated Date",
+      "deletedDate": "Deleted Date"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "annotations": {
+    "changelogDate": "20240206155543"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "entityTableName": "order_item_custom",
+  "fields": [],
+  "name": "OrderItemCustom",
+  "relationships": [
+    {
+      "otherEntityName": "orderItem",
+      "relationshipName": "orderItem",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "custom",
+      "relationshipName": "custom",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

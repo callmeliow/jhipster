@@ -1,0 +1,27 @@
+{
+  "smartServeApp": {
+    "orderFood": {
+      "home": {
+        "title": "Order Foods",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Order Food",
+        "createOrEditLabel": "Create or edit a Order Food",
+        "notFound": "No Order Foods found"
+      },
+      "created": "A new Order Food is created with identifier {{ param }}",
+      "updated": "A Order Food is updated with identifier {{ param }}",
+      "deleted": "A Order Food is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Order Food {{ id }}?"
+      },
+      "detail": {
+        "title": "Order Food"
+      },
+      "id": "ID",
+      "foodName": "Food Name",
+      "price": "Price",
+      "orderItemPrice": "Order Item Price",
+      "order": "Order"
+    }
+  }
+}

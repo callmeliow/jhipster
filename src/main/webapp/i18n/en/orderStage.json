@@ -1,0 +1,29 @@
+{
+  "smartServeApp": {
+    "orderStage": {
+      "home": {
+        "title": "Order Stages",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Order Stage",
+        "createOrEditLabel": "Create or edit a Order Stage",
+        "notFound": "No Order Stages found"
+      },
+      "created": "A new Order Stage is created with identifier {{ param }}",
+      "updated": "A Order Stage is updated with identifier {{ param }}",
+      "deleted": "A Order Stage is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Order Stage {{ id }}?"
+      },
+      "detail": {
+        "title": "Order Stage"
+      },
+      "id": "ID",
+      "orderNo": "Order No",
+      "orderDate": "Order Date",
+      "status": "Status",
+      "createdDate": "Created Date",
+      "updatedDate": "Updated Date",
+      "deletedDate": "Deleted Date"
+    }
+  }
+}

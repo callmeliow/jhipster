@@ -1,0 +1,26 @@
+{
+  "annotations": {
+    "changelogDate": "20240206155443"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "entityTableName": "order_item",
+  "fields": [],
+  "name": "OrderItem",
+  "relationships": [
+    {
+      "otherEntityName": "food",
+      "relationshipName": "food",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "orderStage",
+      "relationshipName": "orderStage",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

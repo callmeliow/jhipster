@@ -1,0 +1,44 @@
+{
+  "annotations": {
+    "changelogDate": "20240206155343"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "entityTableName": "order_stage",
+  "fields": [
+    {
+      "fieldName": "orderNo",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "orderDate",
+      "fieldType": "ZonedDateTime",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "OrderStatus",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "PENDING,COMPLETED,DECLINED"
+    },
+    {
+      "fieldName": "createdDate",
+      "fieldType": "ZonedDateTime",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "updatedDate",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "deletedDate",
+      "fieldType": "ZonedDateTime"
+    }
+  ],
+  "name": "OrderStage",
+  "pagination": "pagination",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

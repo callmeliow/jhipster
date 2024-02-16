@@ -1,0 +1,44 @@
+{
+  "annotations": {
+    "changelogDate": "20240206155643"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "entityTableName": "custom",
+  "fields": [
+    {
+      "fieldName": "ingredientName",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "255"
+    },
+    {
+      "fieldName": "additionalCost",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "imageUrl",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "3000"
+    },
+    {
+      "fieldName": "createdDate",
+      "fieldType": "ZonedDateTime",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "updatedDate",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "deletedDate",
+      "fieldType": "ZonedDateTime"
+    }
+  ],
+  "name": "Custom",
+  "pagination": "pagination",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}
